@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userid": "admin@gmail.com",
+      "userpass": "admin@123"
+    },
+    {
+      "id": "2",
+      "userid": "hero@gmail.com",
+      "userpass": "hero@123"
+    },
+    {
+      "id": "3",
+      "userid": "king@gmail.com",
+      "userpass": "king@123"
+    },
+    {
+      "id": "4",
+      "userid": "queen@gmail.com",
+      "userpass": "queen@123"
+    }
+  ],
+  "products": [
+    {
+      "id": 3,
+      "dish": "Chowmein",
+      "Price": "200"
+    },
+    {
+      "id": 1,
+      "dish": "Burger",
+      "Price": "200"
+    }
+  ],
+  "table": [
+    {
+      "id": 1,
+      "name": "Sam Tim",
+      "phone": "9123456780",
+      "email": "a@gmail.com",
+      "TableFor": "2",
+      "BookingFrom": "12:00",
+      "BookingTo": "14:00"
+    },
+    {
+      "name": "Tanmay Sinha",
+      "phone": "08902256277",
+      "email": "Tanmay.Sinha@gds.ey.com",
+      "TableFor": "2",
+      "BookingFrom": "12:14",
+      "BookingTo": "12:12",
+      "id": 2
+    },
+    {
+      "name": "Tanmay Sinha",
+      "phone": "08902256277",
+      "email": "Tanmay.Sinha@gds.ey.com",
+      "TableFor": "2",
+      "BookingFrom": "12:14",
+      "BookingTo": "12:12",
+      "id": 3
+    }
+  ],
+  "items": [
+    {
+      "dish": "Burger",
+      "price": "10",
+      "id": 1
+    },
+    [
+      {
+        "dish": "Burger",
+        "price": "10",
+        "id": 2
+      }
+    ],
+    [
+      {
+        "dish": "Burger",
+        "price": "10",
+        "id": 1
+      },
+      [
+        {
+          "dish": "Burger",
+          "price": "10",
+          "id": 2
+        }
+      ]
+    ]
+  ]
+}
